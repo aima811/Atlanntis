@@ -1,0 +1,912 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <title>Atlenntis</title>
+</head>
+<!-- header 1 -->
+
+<body>
+  <div class="header1 text-center text-white ">
+    <p class="p-3 m-0">ONLY FOR TODAY:: <b>80% Off!</b> <button type="button"
+        class="btn text-white ms-md-3 mt-2 mt-sm-3 mt-md-0 mb-sm-3 mb-md-0 border shop_now">Shop Now</button>
+    </p>
+  </div>
+  <!-- Header 2 -->
+  <nav class="navbar d-lg-block d-none  navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid ">
+      <a class="navbar-brand  welcome " href="#">Welcome To </a>
+      <button class="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav welcome_links ms-auto mb-2 mb-lg-0">
+          <li class="nav-item border-0">
+            <a class="nav-link  " aria-current="page" href="#"><i class="fa-regular  px-2 fa-user"></i>Hello,
+              Sign in</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " aria-current="page" href="#"><i class="fas   px-2 fa-map-marker-alt"></i>Track Your
+              Order</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " aria-current="page" href="#"><i class="fa-solid fa-life-ring px-2"></i></i>Hello, Sign
+              in</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="/images/Group.png" alt=""> English
+            </a>
+            <ul class="dropdown-menu english">
+              <li><a class="dropdown-item" href="#">Pakistan</a></li>
+              <li><a class="dropdown-item" href="#">India</a></li>
+              <li><a class="dropdown-item" href="#">Australia</a></li>
+              <li><a class="dropdown-item" href="#">United State</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- header 2 end  -->
+  <!-- header 3 -->
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-md-3  d-none d-sm-block  col-sm-12"><a href=""><img src="/images/logo 2.png" alt=""
+            class="ps-3"></a>
+      </div>
+      <div class="col-lg-6 d-sm-block d-none   col-md-9">
+        <div class="input-group  ms-md-2 mt-3 field ">
+          <button class="btn btn-outline-secondary  categories_btn  dropdown-toggle" type="button"
+            data-bs-toggle="dropdown" aria-expanded="false">Categories</button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+          <input type="text" class="form-control input  " aria-label="Text input with dropdown button"
+            placeholder="I’m shipping for.. ">
+          <button class="position-relative search_btn">
+            <div class="circle">
+              <i class="fas fa-search"></i>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-12 d-lg-block d-none   icons mt-4">
+        <a href=""> <i class="fa-regular   user px-3 fa-user"></i></a>
+        <a href=""> <i class="fa-regular heart  px-3 fa-heart"></i></a>
+        <a href=""> <i class="fa-solid  cart px-3 fa-cart-shopping"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- Search responsive  -->
+  <div class="row   p-0 mb-2 m-0">
+    <div class=" col-6 d-sm-none"><img src="/images/logo 2.png" alt="" class="ps-3">
+    </div>
+    <div class="col-6 d-sm-none d-flex justify-content-end align-self-center  pe-md-5 search_icon">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn search_icon_btn  border-0 bg-transparent " data-bs-toggle="modal"
+        data-bs-target="#exampleModal">
+        <i class="fa-solid fa-magnifying-glass " style="color: black; font-size: 34px;">
+        </i>
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="dropdown">
+                <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Categories
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="i am shipping for....">
+
+              </div>
+            </div>
+            <div class="modal-footer">
+
+              <button type="button" class="btn " style="background-color: #EE3124 ; color: white;">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- model end -->
+    </div>
+  </div>
+  <!-- header4 -->
+  <div class="container-fluid header4">
+    <div class="row p-md-2 p-sm-0 r1 ">
+      <div class="col-md-8 col-sm-12 d-lg-block d-none   p-0  align-self-center ">
+        <ul class="unstyled-list  ps-3  r1_content d-flex  m-0">
+          <li>
+            <a href=""> <i class="fa-solid fa-bars " style="color:#EE3124;  font-size: 19px;"></i>
+              Categories
+          </li> </a>
+          <li class="px-md-3 px-sm-0">
+            <a href=""> <i class="fa-solid fa-crown " style="color:#EE3124; font-size: 19px;"></i> Brands
+          </li> </a>
+          <li class="px-md-3 px-sm-0">
+            <a href=""> <i class="fa-brands fa-pagelines" style="color:#EE3124; font-size: 19px;"></i></i>
+              Vendors
+          </li></a>
+          <li class="px-md-3 px-sm-0">
+            <a href=""> <i class="fa-brands fa-envira" style="color:#EE3124; font-size: 19px;"></i> Sell On
+              Atlanntis
+              Retail
+          </li></a>
+        </ul>
+      </div>
+      <div class="col-md-4 col-sm-12     d-lg-block d-none   discount_text ">
+        <p class="text-white  d-flex justify-content-end tex-align-end m-0">50% OFF ONLY FOR TODAY</p>
+      </div>
+      <!-- toggler responsive -->
+      <div class="row ">
+        <div class="col-12  d-lg-none   resp_list  d-flex align-self-center ">
+          <p class="text-white    m-0">50% OFF ONLY FOR TODAY</p>
+        </div>
+        <div class="col-12 d-flex togler_pd justify-content-sm-start ">
+          <nav class="navbar d-lg-none d-block  navbar-expand-lg navbar-dark ">
+            <div class="container-fluid   togler_pd  ">
+              <button class="navbar-toggler   " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  resp_list mt-2 align-items-baseline p-0 ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item border-0">
+                    <a class="nav-link text-white   " aria-current="page" href="#"><i class="fa-regular  fa-user"></i>
+                      Hello,
+                      Sign in</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link  text-white " aria-current="page" href="#"><i
+                        class="fas   fa-map-marker-alt"></i> Track Your Order</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-white  " aria-current="page" href="#"><i
+                        class="fa-solid fa-life-ring"></i></i> Hello, Sign in</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white " href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <img src="/images/Group.png" alt=""> English
+                    </a>
+                    <ul class="dropdown-menu english">
+                      <li><a class="dropdown-item" href="#">Pakistan</a></li>
+                      <li><a class="dropdown-item" href="#">India</a></li>
+                      <li><a class="dropdown-item" href="#">Australia</a></li>
+                      <li><a class="dropdown-item" href="#">United State</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="  unstyled-list  d-flex flex-column align-items-baseline ps-0 ms-0  m-0">
+                  <li class=" mt-1">
+                    <i class="fa-solid fa-bars " style=" font-size: 18px;"></i> Categories
+                  </li>
+                  <li class=" px-sm-0  mt-2">
+                    <i class="fa-solid fa-crown " style="font-size: 18px;"></i> Brands
+                  </li>
+                  <li class=" px-sm-0  mt-2">
+                    <i class="fa-brands fa-pagelines" style="font-size: 18px;"></i></i> Vendors
+                  </li>
+                  <li class=" px-sm-0  mt-2">
+                    <i class="fa-brands fa-envira" style="font-size: 18px;"></i> Sell On Atlanntis
+                    Retail
+                  </li>
+                </ul>
+                <div class=" d-flex  mt-2 justify-content-start">
+                  <i class="fa-regular   text-white user px-0 fa-user"></i>
+                  <i class="fa-regular  text-white  heart  px-3 fa-heart"></i>
+                  <i class="fa-solid  text-white  cart px-3 fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Slider -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/Group 38.png" class="d-block  w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/Group 38.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/Group 38.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Cards Section  1 Start  -->
+  <div class="container-fluid ">
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 mt-5">
+        <div class="card card_text boarder-0  ">
+          <img src="images/97kbLaFDaA 1.png" class="card-img w-100  card_img" alt="...">
+          <div class="card-img-overlay">
+            <h1 class="card-title"><b>TECH ACCESSORIES WITH FREE SHIPPING</b></h1>
+
+            <button class="card_btn">Shop Now <i class="fa-solid fa-caret-right"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6  mt-5">
+        <div class="card card_text boarder-0 ">
+          <img src="images/hA4xEuaQcx 1.png" class="card-img w-100 card_img" alt="...">
+          <div class="card-img-overlay">
+            <h1 class="card-title"><b>TECH ACCESSORIES WITH FREE SHIPPING</b></h1>
+
+            <button class="card_btn">Shop Now <i class="fa-solid fa-caret-right"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mt-5">
+        <div class="card card_text boarder-0 ">
+          <img src="images/J8pReZadY3 1.png" class="card-img w-100 card_img" alt="...">
+          <div class="card-img-overlay">
+            <h1 class="card-title"><b>TECH ACCESSORIES WITH FREE SHIPPING</b></h1>
+
+            <button class="card_btn">Shop Now <i class="fa-solid fa-caret-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Cards  jsSlider1 start  -->
+  <div class="   jsslider1 container-fluid position-relative ">
+    <div class="swiper mySwiper  mt-md-4 mb-md-5">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Navigation buttons -->
+    </div>
+    <div class="">
+
+      <div class="swiper-button-next"><img src="./image/Group 40.png" alt="" class="img-fluid"></div>
+      <div class="swiper-button-prev"><img src="./image/Group 39.png" alt="" class="img-fluid "></div>
+    </div>
+  </div>
+  <!-- line previous-next1 -->
+  <div class="container-fluid">
+    <div class="d-flex next_icon align-item-center">
+      <div class="hr-text">
+        <h1>Featured</h1>
+      </div>
+      <hr class="hr  mx-4 mt-4">
+      <div class="d-flex ">
+        <div class="round-icon1"> <a href=""><i class="fa-solid fa-chevron-left "></i></a></div>
+        <div class="round-icon2 mx-3"> <a href=""><i class="fa-solid fa-chevron-right"></i></a></div>
+      </div>
+    </div>
+  </div>
+  <!-- card slider end  -->
+  <!-- card section 2 start -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-12 mt-5">
+        <div class="card card3_text boarder-0  ">
+          <img src="images/NZQhDd1yx4 1.png" class="card-img   w-100 card_img" alt="...">
+          <div class="card-img-overlay">
+            <h1 class="card-title  "><b>BOOKS CATEGORY DEALS</b></h1>
+            <p class="text-white">Up to 67% off</p>
+            <button class="card_btns">Shop Now <i class="fa-solid fa-caret-right"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-12 mt-5">
+        <div class="card card3_text boarder-0  ">
+          <img src="images/6tbr11506f 1.png" class="card-img w-100 card_img" alt="...">
+          <div class="card-img-overlay">
+            <h1 class="card-title  "><b>BOOKS CATEGORY DEALS</b></h1>
+            <p class="text-white">Up to 67% off</p>
+            <button class="card_btns">Shop Now <i class="fa-solid fa-caret-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- card section 2  -->
+  <!-- card slider2 start -->
+  <div class=" jsslider1 fluid position-relative">
+    <div class="swiper mySwiper  mt-md-4 mb-md-5">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Navigation buttons -->
+    </div>
+    <div class="">
+
+      <div class="swiper-button-next"><img src="./image/Group 40.png" alt="" class="img-fluid"></div>
+      <div class="swiper-button-prev"><img src="./image/Group 39.png" alt="" class="img-fluid "></div>
+    </div>
+  </div>
+  <!-- card slider2 end -->
+  <!-- card section 3 start  -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-12 mt-5">
+        <div class="card card3_text boarder-0  ">
+          <img src="images/l36bmJQ2RI 1.png" class="card-img   w-100 card_img" alt="...">
+          <div class="card-img-overlay">
+            <h1 class="card-title"><b>YEAR END SALE</b></h1>
+            <h5 class="text-white">Don’t miss out</h5>
+
+            <button class="card3_btn">Shop Now <i class="fa-solid fa-caret-right"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-12 mt-5">
+        <div class="card card3_text boarder-0  ">
+          <img src="images/620IpzUrVS 1.png" class="card-img w-100 card_img" alt="...">
+          <div class="card-img-overlay">
+            <h1 class="card-title"><b>YEAR END SALE</b></h1>
+            <h5 class="text-white">Don’t miss out</h5>
+
+
+            <button class="card3_btn">Shop Now <i class="fa-solid fa-caret-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid ">
+    <div class="d-flex next_icon align-item-center mt-5">
+      <div class="hr-text">
+        <h1>Additional </h1>
+      </div>
+      <hr class="hr mx-4 mt-4">
+      <div class="d-flex mt-0">
+        <div class="round-icon1"> <a href=""><i class="fa-solid fa-chevron-left "></i></a></div>
+        <div class="round-icon2 mx-3"> <a href=""><i class="fa-solid fa-chevron-right"></i></a></div>
+      </div>
+    </div>
+  </div>
+  <!-- card section 3 end  -->
+  <div class=" container-fluid position-relative">
+    <div class="swiper mySwiper  mt-md-4 mb-md-5">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Navigation buttons -->
+    </div>
+    <div class="">
+
+      <div class="swiper-button-next"><img src="./image/Group 40.png" alt="" class="img-fluid"></div>
+      <div class="swiper-button-prev"><img src="./image/Group 39.png" alt="" class="img-fluid "></div>
+    </div>
+  </div>
+  <!-- banner section start  -->
+  <div class="container-fluid mt-5">
+    <div class="banner">
+      <h1 class="text-white"><b>FREE SHIPPING</b></h1>
+      <h1 class="text-white">Don’t miss out</h1>
+      <button class="banner_btn">Shop Now <i class="fa-solid fa-caret-right"></i></button>
+    </div>
+  </div>
+  <!-- banner section end  -->
+  <div class="container-fluid ">
+    <div class="d-flex next_icon align-item-center mt-5">
+      <div class="hr-text">
+        <h1>Additional </h1>
+      </div>
+      <hr class="hr mx-4 mt-4">
+      <div class="d-flex mt-0">
+        <div class="round-icon1"> <a href=""><i class="fa-solid fa-chevron-left "></i></a></div>
+        <div class="round-icon2 mx-3"> <a href=""><i class="fa-solid fa-chevron-right"></i></a></div>
+      </div>
+    </div>
+  </div>
+  <!-- Cards  jsSlider1 start  -->
+  <div class=" container-fluid position-relative">
+    <div class="swiper mySwiper  mt-md-4 mb-md-5">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide js_slider">
+          <img src="images/620419af15b18 1.png" alt="" class="img-fluid">
+          <div class="card-body">
+            <p class="card-text para">L’Oreal Infallible Lip Gloss - Mafia Gloss 104 8ml</p>
+            <p class="p mx-3 text-danger"><b>$6 <sup>25</sup></b></p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Navigation buttons -->
+    </div>
+    <div class="">
+
+      <div class="swiper-button-next"><img src="./image/Group 40.png" alt="" class="img-fluid"></div>
+      <div class="swiper-button-prev"><img src="./image/Group 39.png" alt="" class="img-fluid "></div>
+    </div>
+  </div>
+  <!-- footer start  -->
+  <footer class="footer_section pb-5">
+    <div class="container-fluid  p-0 m-0">
+      <div class="row  mt-5 p-0 m-0">
+        <div class="col-md-6 mt-md-5 mb-md-5 mb-2 mt-2 d-flex ">
+          <img src="images/mail 1 (1).png" alt="" class="h-75">
+          <div class="px-2">
+            <h4 class="text-white mb-0">Subscription</h4>
+            <p class="text-light subscribe_text">Subscribe Now To Get Updates On Promotions and Coupons</p>
+          </div>
+        </div>
+        <div class="col-md-6    mt-2 mb-2 mt-md-5 mb-md-5  ">
+          <div class="input-group pe-3 ms-md-2 mt-3 field2 ">
+            <input type="text" class="form-control input2  " aria-label="Text input with dropdown button"
+              placeholder="Enter your email address ">
+            <button class="position-relative search_btn3 p-0 border-0">
+              <div class="circle2">
+                <i class="fas fa-search"></i>
+              </div>
+            </button>
+
+          </div>
+        </div>
+        <div class="ps-3 pe-3">
+          <hr class="text-white   new1">
+        </div>
+      </div>
+      <div class="row p-0 px-3 m-0 py-4 pb-5  ">
+        <div class="col-lg-3 col-md-12  p-0 m-0">
+          <a href=""> <img src="/images/kNBNeogR8WJWEVUbmT66lwEKIelIFFDmLk9gMud9 1.png" alt="" class=" footer_img "></a>
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-6 p-0 m-0 text-white footer_heading">
+          <h5 class="text-uppercase mb-3   ">Useful Links</h5>
+
+          <ul class="list-unstyled text-white pe-0 mb-0">
+            <li>
+              <a href="#!" class="text-white">About Us</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Terms & Conditions</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Return Policy</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Support Policy</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">FAQ</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-6 p-0 m-0  footer_heading">
+          <h5 class="text-uppercase  text-white mb-3 mt-3 mt-sm-0">Make Money</h5>
+
+          <ul class="list-unstyled text-white mb-md-0">
+            <li>
+              <a href="#!" class="text-white">Sell on Atlanntis Retail</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Become a Merchant</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">How It Works</a>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-6  p-0 m-0  footer_heading">
+          <h5 class="text-uppercase  text-white mb-3 mt-md-0 mt-3">Customer Service</h5>
+
+
+          <ul class="list-unstyled text-white mb-md-0">
+            <li>
+              <a href="#!" class="text-white">Disputes</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Contact Seller</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Contact Us</a>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="col-lg-3 px-lg-3 px-0 col-md-3 col-sm-6 p-0 m-0 footer_heading ">
+          <h5 class="text-uppercase text-white mb-3">Stay Connected</h5>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+  <script>
+    function initializeSwiper() {
+      var swiperOptions = {
+        watchSlidesProgress: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        }
+      };
+
+      // Adjust the breakpoints and slidesPerView as needed
+      if (window.innerWidth <= 576) {
+        swiperOptions.slidesPerView = 1; // Show 1 slide on small screens
+      } else if (window.innerWidth <= 768) {
+        swiperOptions.slidesPerView = 2; // Show 2 slides on medium screens
+      } else if (window.innerWidth <= 992) {
+        swiperOptions.slidesPerView = 3; // Show 3 slides on large screens
+      } else {
+        swiperOptions.slidesPerView = 5; // Show 5 slides on extra large screens
+      }
+
+      var swiper = new Swiper(".mySwiper", swiperOptions);
+    }
+
+    // Initialize Swiper on load and on window resize
+    window.addEventListener("load", initializeSwiper);
+    window.addEventListener("resize", initializeSwiper);
+  </script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
